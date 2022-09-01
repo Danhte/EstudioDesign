@@ -102,8 +102,19 @@ section .container .box {
     display: flex;
     width: 25%;
     height: 100%;
+    overflow: hidden;
 }
 
+section .container .box .imgBox{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0.7;
+    filter: grayscale(1);
+}
 
 section .container .box .imgBox img{
     position: absolute;
@@ -112,9 +123,16 @@ section .container .box .imgBox img{
     width: 100%;
     height: 98%;
     object-fit:cover;
+    transition: 0.5s;
+
+    
 }
 
-
+section .container .box .imgBox:hover
+{
+    opacity: 1;
+    filter: grayscale(0);
+}
 
 
 .btn-green{
