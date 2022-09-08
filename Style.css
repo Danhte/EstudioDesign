@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -13,11 +15,80 @@
     margin-bottom: 4%;
 }
 
+    .brands{
+        font-family: "poppins";
+        font-weight: 400;
+        font-size: 1.5rem;
+        color:#ff1980;
+    }
+
+    .brandss{
+        font-family: "questrial";
+        font-weight: 600;
+        font-size: 2rem;
+        color:#e60068;
+    }
+
+    .brand{
+        padding: 13rem 40% 13rem 10%;
+    }
+
+    .social-bar{
+        background: none;
+        position: fixed;
+        right: 0;
+        top:34%;
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: flex-end;
+        display: flex;
+        z-index: 100;
+    }
+
+    .icon {
+        color: white;
+        text-decoration: none;
+        padding: .9rem;
+        display: flex;
+        transition: all .5s;
+    }
+
+    .icon-whatsapp{
+    background:
+    linear-gradient(#25d366,#25d366);
+    }
+    
+    .icon-instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+
+    .icon-youtube {
+        background: #e31f18;
+    }
+
+    .icon-linkedin{
+        background: #0e76a8;
+    }
+
+    .icon:first-child {
+        border-radius: 1rem 0 0 0;
+    }
+    
+    .icon:last-child {
+        border-radius: 0 0 0 1rem;
+    }
+    
+    .icon:hover {
+        padding-right: 3rem;
+        border-radius: 1rem 0 0 1rem;
+        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    }
+
 header li, a {
-    font-family: "Poppins";
+    font-family: "Questrial" ;
     font-weight:600;
     font-size: 23px;
-    color:#FF637E;
+    color:#ff607a;
     text-decoration: none;
 }
 
@@ -25,21 +96,21 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 9%;
+    padding: 0px 8%;
 }
 
 
 .nav_links li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .background{
-    height: 650px;
+    height: 91vh;
     background-image: url(Media/Background/Background.jpg);
     background-size: cover;
-    font-size: 80px;
-    font-family: "poppins";
+    font-size: 7rem;
+    font-family: "Questrial";
     font-weight: 700;
     color: white;
     display: flex;
@@ -92,9 +163,9 @@ section{
 section .container {
     position:absolute;
     display:flex;
-    height: calc(100% - 140px);
+    height: calc(100% - 90px);
     width: calc(100% - 0px);
-    z-index: 100;
+    z-index: 99;
 }
 
 section .container .box {
@@ -137,26 +208,41 @@ section .container .box .imgBox:hover
 
 .btn-green{
     color: white;
-    background-color: #3cc93f;
-    width: 137px;
-    height: 20px;
+    background-color: #21b523;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 1rem;
 }
 
 .btn-red{
     color: white;
     background-color: tomato;
-    width: 138px;
-    height: 20px;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 1rem;
 }
 
 form{
-    margin: 0 auto;
-    color: #FF637E;
-    font-family: "poppins";
-    padding: 10px;
-    width: 300px;
-    background-color: white;
-    border-radius: 3px;
+    color: #e63c59;
+    font-family: "Questrial";
+    font-size: 1.3rem;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 3rem 0rem 0rem 3rem;
+    height: 30rem;
+    display:block;
+    position: fixed;
+    width: 33rem;
+}
+
+.letrap{
+    padding: .1rem 0 .2rem .7rem;
+}
+
+.formulariofinal{
+    height: 90vh;
+    margin-top: 0%;
+    background-image: url(./Media/Background/Background.jpg);
 }
 
 input, textarea{
@@ -165,10 +251,15 @@ input, textarea{
 }
 
 .field{
-    border: solid 1px #ccc;
-    padding: 10px;
-    width: 280px;
+    border: solid 1px rgb(186, 186, 186);
+    padding: .9rem;
+    width: 27.5rem;
+    margin: .7rem;
 }
+
+
+
+
 
 .center-content{
     text-align: center;
@@ -228,7 +319,7 @@ section .container .box1 .imgBox img{
         height: 408px;
         background-image: url(Media/Background/Background.jpg);
         background-size: cover;
-        font-size: 40px;
+        font-size: 2.1rem;
         font-family: "poppins";
         font-weight: 700;
         color: white;

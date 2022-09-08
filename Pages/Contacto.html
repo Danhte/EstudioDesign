@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="../font.css">
     <link rel="icon" href="../Media/Icono.png">
     <title>Contacto</title>
 </head>
@@ -20,42 +21,35 @@
         </nav>
     </header>
 
-    <nav>
-        <section>
-            <h1 style="font-family: poppins ;">Formulario de contacto</h1>
-            <h3 style="font-family: poppins ;">Escríbenos y en breve nos pondremos en contacto contigo</h3>
-            
-            <form action="#">
-                <p>Nombre</P>
+    <div class="social-bar">
+        <a href="https://n9.cl/lg3q2" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="https://www.instagram.com/dying.dante/" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://n9.cl/u3gyv" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://n9.cl/u3gyv" class="icon icon-linkedin" target="_blank"></a>
+    </div>
+
+    <div class="formulariofinal">
+            <form>
+                <p class="letrap">Nombre Completo</P>
                 <input type="text" class="field"> <br>
                 
-                <P>correo electronico</P>
+                <P class="letrap">Email</P>
                 <input type="email" class="field"> <br>
                 
-                <p>Edad</P>
-                <input type="number" class="field"> <br>
+                <p class="letrap">Asunto</P>
+                <input type="text" class="field"><br>
                 
-                <p>Acepto terminos y condiciones</P>
-                <input type="checkbox">
+                <p class="letrap">Ingrese su mensaje</P>
+                <input type="text" class="field">
                 
-                <P>Ingresa tu pais</P>
-                <select class="field">
-                <option value="">Mexico</option>
-                <option value="">Argentina</option>                
-                <option value="">Colombia</option>
-                <option value="">Peru</option>
-                <option value="">Chile</option>
-                </select>
-                <p></p>                
+                <br>
+                <p><br></p>               
                 <input type="reset" class="btn btn-red" value="Limpiar formularios">
                 <input type="submit" class="btn btn-green" value="Enviar Formulario">
-            </form>        
-        
-        
-        </section>
-    </nav>
+            </form>       
+    </div>
 
-    <div class="footer">
+    <!-- <div class="footer">
         <a href="index.html">Inicio</a>
         <a href="https://www.instagram.com/dying.dante/">Instagram</a>
         <a href="pages/contactos.html"">Contacto<ul>
@@ -66,7 +60,7 @@
             <li>Terminos y condiciones</li>
             <li>Aviso de privacidad</li>
         </ul></a>
-    </div>
+    </div> -->
 
 </body>
 </html>
