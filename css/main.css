@@ -9,7 +9,7 @@
 
 .background {
   height: 91vh;
-  background-image: url(/Media/Background/Background.jpg);
+  background-image: url(../Media/Background/Background.jpg);
   background-size: cover;
   font-size: 7rem;
   font-family: "Questrial";
@@ -22,7 +22,7 @@
 
 .background2 {
   height: 548px;
-  background-image: url(/Media/Background/Background3.jpg);
+  background-image: url(../Media/Background/Background3.jpg);
   background-size: cover;
   font-size: 80px;
   font-family: "poppins";
